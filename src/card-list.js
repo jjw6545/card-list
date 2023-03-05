@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit';
 
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
-import "undergraduate-card/undergraduate-card.js"
+import "undergraduate-card/src/undergraduate-card.js";
 
 class CardList extends LitElement {
   static properties = {
@@ -59,7 +59,7 @@ class CardList extends LitElement {
   render() {
     return html`
       <undergraduate-card>
-    </undergraduate-card>
+      </undergraduate-card>
     `;
   }
 }
