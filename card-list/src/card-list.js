@@ -58,9 +58,7 @@ class CardList extends LitElement {
 
   render() {
     return html`
-      <undergraduate-card><slot>
-        <ul><li>Woah this is different</li>
-        </ul></slot>
+      <undergraduate-card>
     </undergraduate-card>
     `;
   }
