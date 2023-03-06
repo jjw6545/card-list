@@ -65,11 +65,11 @@ class CardList extends LitElement {
       </undergraduate-card>
       <undergraduate-card name="HI">
       </undergraduate-card>
-      <undergraduate-card name="Check Details"><slot>
+      <undergraduate-card name="Check Details" opened=true><slot>
         <ul><li>This is a dot</li>
         </ul></slot>
       </undergraduate-card>
-      <undergraduate-card name="Check Details Again">
+      <undergraduate-card name="Check Details Again" opened=true>
       <div>Bryce Loves Captain Planet</div>
       </undergraduate-card>
       <undergraduate-card name="BTO PRO" imageLink= "https://avatars1.githubusercontent.com/u/329735?s=460&u=6648669ddd6d1c983e33bb659b9879a26d37f8ed&v=4">
