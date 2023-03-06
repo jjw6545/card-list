@@ -58,13 +58,12 @@ class CardList extends LitElement {
 
   render() {
     return html`
-      
       <undergraduate-card>
       </undergraduate-card>
       <undergraduate-card name="HI">
       </undergraduate-card>
       <undergraduate-card name="Check Details"><slot>
-        <ul><li>helsinki</li>
+        <ul><li>This is a dot</li>
         </ul></slot>
       </undergraduate-card>
       <undergraduate-card name="Check Details Again">
